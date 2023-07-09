@@ -140,3 +140,36 @@ main {
 .about-info {
     text-align: center;
 }
+
+/* What I Do Section Styles */
+.activity {
+        margin: 130px 0;
+}
+
+.activity-desc {
+    padding: 0 100px 30px;
+}
+
+/* Skills Box */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    max-width: 200px;
+    background-color: #fd6e0a;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: #181818;
+}
+
+.mongodb {
+    margin-right: 0;
+}
+
+
+
+
+
