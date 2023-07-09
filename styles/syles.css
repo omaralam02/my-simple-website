@@ -1,22 +1,39 @@
-nav > ul{
+/* Common shared styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #fd6e0a;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+}
+
+/* nav related styles */
+nav {
     display: flex;
-    justify-content: space-between;
-    background-color: tomato;
+}
+
+.logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
 }
 
 nav li {
     list-style: none;
-    font-size: 20px;
+    margin-right: 50px;
 }
 
-nav li button {
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-nav li button:hover {
-    background-color: brown;
+nav a {
+    text-decoration: none;
+    color: #474747;
 }
