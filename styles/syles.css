@@ -36,6 +36,10 @@
 .section-title{
     margin-bottom: 20px;
 }
+
+main section {
+    margin: 130px 0;
+}
 /* nav related styles */
 nav {
     display: flex;
@@ -129,7 +133,6 @@ main {
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
-    margin: 130px 0;
 }
 
 .about-info-container {
@@ -142,10 +145,6 @@ main {
 }
 
 /* What I Do Section Styles */
-.activity {
-        margin: 130px 0;
-}
-
 .activity-desc {
     padding: 0 100px 30px;
 }
@@ -153,22 +152,22 @@ main {
 /* Skills Box */
 .skills-container {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .skill{
-    max-width: 200px;
-    background-color: #fd6e0a;
+    /* max-width: 200px; */
     padding: 30px;
-    margin-right: 20px;
-    border-radius: 10px;
-    box-shadow: #181818;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.mongodb {
-    margin-right: 0;
+.skill-desc {
+    color: #757575;
 }
 
+/* Resume Section */
 
 
 
