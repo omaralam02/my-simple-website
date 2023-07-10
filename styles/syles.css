@@ -168,7 +168,21 @@ main {
 }
 
 /* Resume Section */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
 
+.resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.resume-item-title, .resume-item-institute, .resume-item-desc {
+    padding-bottom: 20px;
+}
 
 
 
