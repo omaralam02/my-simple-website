@@ -79,7 +79,7 @@ nav a {
 }
 
 .banner {
-    margin: 30px 150px 0px 150px;
+    margin: 210px 150px 0px 150px;
     padding-left: 30px;
     display: flex;
     justify-content: space-between;
@@ -170,19 +170,31 @@ main {
 /* Resume Section */
 .resume-container {
     display: flex;
-    gap: 24px;
+    gap: 50px;
 }
 
 .resume-col-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    padding-bottom: 30px;
+    margin: 50px 0 30px;
 }
 
-.resume-item-title, .resume-item-institute, .resume-item-desc {
-    padding-bottom: 20px;
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-desc, .resume-item-institute {
+    color: #757575;
+    margin: 30px 0;
 }
 
+.resume-container hr {
+    margin-bottom: 30px;
+}
 
-
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
